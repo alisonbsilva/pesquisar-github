@@ -1,0 +1,30 @@
+.boxMain{    
+    margin: 0 auto;
+    min-height: 100px;
+    max-width: 350px;
+    background-image: linear-gradient(var(--black-), var(--black-)) ;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.33);
+
+}
+
+.boxMain strong {
+    margin:7px 0;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: lighter;
+    font-variant:small-caps ;
+    color: var(--white-)
+
+}
+.boxMain span{
+    text-indent: 20px;
+    display: block;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    font-size: 1rem;  
+    color: var(--lime-400)
+
+
+}
