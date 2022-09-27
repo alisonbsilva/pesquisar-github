@@ -3,7 +3,8 @@ import styles from './Repo.module.css'
 export function Repo({value}){  
 
         
-    return(<div> 
+    return(<div>
+         
         {value.map(item =>{
         return(
             <div
