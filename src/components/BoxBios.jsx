@@ -6,8 +6,8 @@ export function BoxBios(props){
 
     return(
         <div className={styles.boxMain}>
-            <strong>{props.value.name}</strong>
-            <span> {props.value.bio}</span>
+            <strong>{props.value.name || 'Digite Algo Acima 👆'}</strong>
+            <span> {props.value.bio || 'Para obter informações do usuário! 👩🏽👨🏽'}</span>
         </div>
     )
 }

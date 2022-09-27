@@ -50,9 +50,9 @@ export function App() {
           <button onClick={handleButton}><Search size={15}/> Enviar</button> 
         </form>
         <div className={styles.img}>
-          <img src={name ? dados.avatar_url: 'https://www.promoview.com.br/uploads/images/unnamed%2819%29.png'}  />
+          <img src={dados.avatar_url || 'https://www.promoview.com.br/uploads/images/unnamed%2819%29.png'}  />
         </div>
-        <BoxBios value={dados } />
+        <BoxBios value={dados} />
         <BoxRepo  value={reporData}/>
       </div>
     </div>
